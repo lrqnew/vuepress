@@ -68,7 +68,7 @@ module.exports = {
                 link: 'https://github.com/lrqnew'
             }
         ],
-        sidebarDepth: 3,
+        sidebarDepth: 2,
         lastUpdated: 'Last Updated',
         sidebar: {
             '/fx/': [
@@ -84,8 +84,8 @@ module.exports = {
             ],
             '/jishu/':[
                 '',
-                'web',
-                'back'
+                'jwt'
+            
             ]
             //   '/css/':[
             //       '',
