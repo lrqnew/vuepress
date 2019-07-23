@@ -6,12 +6,12 @@ tagline: 关注前端
 # actionText: 快速上手 →
 actionLink: /nav/
 features:
-- title: 爱代码
+- title: 技术笔记
   details: 前端程序员的技术笔记，每天分享技术知识和部分工具。
 - title: 爱代码前端
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 爱代码前端技术文档
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+  details: 学的不仅是技术，更是梦想！
+- title: 前端技术文档
+  details: 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 

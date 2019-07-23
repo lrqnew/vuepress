@@ -82,6 +82,11 @@ module.exports = {
                 'questions',
                 'english'
             ],
+            '/jishu/':[
+                '',
+                'web',
+                'back'
+            ]
             //   '/css/':[
             //       '',
             //       'css1',
