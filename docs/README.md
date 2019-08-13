@@ -1,6 +1,6 @@
 ---
 home: true
-# heroImage: /logo.png
+# heroImage: /lrq.jpg
 heroText: 李瑞清的官方网站
 tagline: 关注前端
 # actionText: 快速上手 →
@@ -10,34 +10,26 @@ features:
   details: 前端程序员的技术笔记，每天分享技术知识和部分工具。
 - title: 爱代码前端
   details: 学的不仅是技术，更是梦想！
-- title: 前端技术文档
+- title: 本网站技术
   details: 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-# Hello
-
-```js{2,3,4,5}
-<header id="header">
-    <h1 class="logo">
-                <a href="/"><img title="零点日记-日记本,网络日记本,在线日记应用" src="/statics/images/site_logo.png"/></a>
-        <span class="hidden-xs">
-            <img src="/statics/images/site_desc.png"/>
-            <span class="today">2019/07/02</span>
-        </span>
-    </h1>
-    </div>
-</header>
-
-```
-:tada: :100: 
-::: tip 提示
-This is a tip 
-
-    npm install -g vuepress
-:::
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+# CSDN 博客文章
+#### [iview踩坑之路：动态绑定Tag并动态绑定closable属性](https://blog.csdn.net/liruiqing520/article/details/97486852 "iview踩坑之路：动态绑定Tag并动态绑定closable属性")
+#### [iview给布局MenuItem标签绑定点击事件](https://blog.csdn.net/liruiqing520/article/details/96567107 "iview给布局MenuItem标签绑定点击事件")
+#### [vue使用iview采坑之MenuItem使用router-link跳转vue组件](https://blog.csdn.net/liruiqing520/article/details/96498126 "vue使用iview采坑之MenuItem使用router-link跳转vue组件")
+#### [js处理url将url参数转为对象(有重复参数)](https://blog.csdn.net/liruiqing520/article/details/96427968 "js处理url将url参数转为对象(有重复参数)")
+#### [微信小程序：如何在{{}}中使用函数？WXML+WXS](https://blog.csdn.net/liruiqing520/article/details/88944715 "微信小程序：如何在{{}}中使用函数？WXML+WXS")
+#### [Echarts地图制作介绍](https://blog.csdn.net/liruiqing520/article/details/88745158 "Echarts地图制作介绍")
+#### [js修改数组对象的属性（key）名](https://blog.csdn.net/liruiqing520/article/details/88576161 "js修改数组对象的属性（key）名")
+#### [使用js将多个数组对象合并成一个数组对象](https://blog.csdn.net/liruiqing520/article/details/88550220 "使用js将多个数组对象合并成一个数组对象")
+#### [小程序之open-data userAvatarUrl头像做圆角](https://blog.csdn.net/liruiqing520/article/details/88537886 "小程序之open-data userAvatarUrl头像做圆角")
+#### [微信小程序map组件层级过高，导致model模态框无法显示的解决方法](https://blog.csdn.net/liruiqing520/article/details/88129883 "微信小程序map组件层级过高，导致model模态框无法显示的解决方法")
+#### [微信小程序填坑之---自定义组件](https://blog.csdn.net/liruiqing520/article/details/87915980 "微信小程序填坑之---自定义组件")
+#### [Cordova - 设置iOS下默认语言为中文（防止某些插件、界面显示英文）](https://blog.csdn.net/liruiqing520/article/details/87722816 "Cordova - 设置iOS下默认语言为中文（防止某些插件、界面显示英文）")
+#### [nginx安装部署pc端限制访问配置](https://blog.csdn.net/liruiqing520/article/details/87701360 "nginx安装部署pc端限制访问配置")
+#### [微软热更新插件cordova-plugin-code-push使用介绍](https://blog.csdn.net/liruiqing520/article/details/87700722 "微软热更新插件cordova-plugin-code-push使用介绍")
+#### [SQL Server基础之存储过程](https://blog.csdn.net/liruiqing520/article/details/82732171 "SQL Server基础之存储过程")
+#### [Easyui datagrid日期格式化（史上最简单的格式化方法）](https://blog.csdn.net/liruiqing520/article/details/82717770 "Easyui datagrid日期格式化（史上最简单的格式化方法）")
+#### [Jquery Easyui DataGrid（数据表格）实现增删改查和真分页](https://blog.csdn.net/liruiqing520/article/details/80213934 "Jquery Easyui DataGrid（数据表格）实现增删改查和真分页")
