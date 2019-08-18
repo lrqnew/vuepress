@@ -4,17 +4,13 @@ module.exports = {
     head: [
         ['link', {
             rel: 'icon',
-            href: '/favicon.ico'
+            href: '/lrq.jpg'
         }]
     ],
     themeConfig: {
         nav: [{
                 text: '首页',
                 link: '/'
-            },
-            {
-                text: '爱代码工具箱',
-                link: 'http://www.wicode.cn/'
             },
             //   {text:'前端导航',link:'http://www.wicode.cn/'},
             //   {text:'每日分享',link:'http://www.wicode.cn/'},
@@ -62,6 +58,10 @@ module.exports = {
                         ]
                     },
                 ]
+            },
+            {
+                text: '爱代码工具箱',
+                link: 'http://www.wicode.cn/'
             },
             {
                 text: 'GitHub',

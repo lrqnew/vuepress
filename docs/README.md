@@ -16,6 +16,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
 # CSDN 博客文章
+#### [iview上传组件upload上传图片时，通过data附带参数，nodejs后台接收不到参数的解决方法](https://blog.csdn.net/liruiqing520/article/details/99709908 "iview上传组件upload上传图片时，通过data附带参数，nodejs后台接收不到参数的解决方法")
 #### [iview踩坑之路：动态绑定Tag并动态绑定closable属性](https://blog.csdn.net/liruiqing520/article/details/97486852 "iview踩坑之路：动态绑定Tag并动态绑定closable属性")
 #### [iview给布局MenuItem标签绑定点击事件](https://blog.csdn.net/liruiqing520/article/details/96567107 "iview给布局MenuItem标签绑定点击事件")
 #### [vue使用iview采坑之MenuItem使用router-link跳转vue组件](https://blog.csdn.net/liruiqing520/article/details/96498126 "vue使用iview采坑之MenuItem使用router-link跳转vue组件")
