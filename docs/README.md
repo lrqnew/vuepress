@@ -16,6 +16,11 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
 # CSDN 博客文章
+#### [angular cli http请求封装+拦截器配置+ 接口配置文件](https://blog.csdn.net/liruiqing520/article/details/100378701 "angular cli http请求封装+拦截器配置+ 接口配置文件")
+#### [Angular 自定义validators的实现方法](https://blog.csdn.net/liruiqing520/article/details/100191197 "Angular 自定义validators的实现方法")
+#### [项目中引用NG-ZORRO，在使用nz-form时报错Can't bind to 'formGroup' since it isn't a known property of 'form'的解决方案](https://blog.csdn.net/liruiqing520/article/details/100185663 "项目中引用NG-ZORRO，在使用nz-form时报错Can't bind to 'formGroup' since it isn't a known property of 'form'的解决方案")
+#### [Angular目录结构分析、创建组件、绑定数据](https://blog.csdn.net/liruiqing520/article/details/100177478 "Angular目录结构分析、创建组件、绑定数据")
+#### [大前端是什么？](https://blog.csdn.net/liruiqing520/article/details/100168757 "大前端是什么？")
 #### [iview上传组件upload上传图片时，通过data附带参数，nodejs后台接收不到参数的解决方法](https://blog.csdn.net/liruiqing520/article/details/99709908 "iview上传组件upload上传图片时，通过data附带参数，nodejs后台接收不到参数的解决方法")
 #### [iview踩坑之路：动态绑定Tag并动态绑定closable属性](https://blog.csdn.net/liruiqing520/article/details/97486852 "iview踩坑之路：动态绑定Tag并动态绑定closable属性")
 #### [iview给布局MenuItem标签绑定点击事件](https://blog.csdn.net/liruiqing520/article/details/96567107 "iview给布局MenuItem标签绑定点击事件")
