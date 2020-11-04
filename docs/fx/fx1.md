@@ -1,1 +1,9 @@
-# 这个是分享1的首页
+---
+title: 【vue】跨域解决方案之proxyTable
+date: 2017-12-28
+categories:
+ - frontEnd
+tags:
+- vue
+- webpack
+---

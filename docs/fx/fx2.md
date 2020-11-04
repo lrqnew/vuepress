@@ -1,5 +1,10 @@
-# 这是分享2的首页
-
-## 2222
-
-### 3333
+---
+title: 【vue】跨域解决方案之
+date: 2018-12-28
+categories:
+ - frontEnd
+tags:
+- vue
+- webpack
+---
+<Boxx/>

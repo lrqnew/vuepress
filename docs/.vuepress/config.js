@@ -1,75 +1,81 @@
 module.exports = {
-    title: '李瑞清',
-    description: '李瑞清',
+    title: '老李讲码',
+    description: '老李讲码',
     head: [
-        ['link', {
-            rel: 'icon',
-            href: '/lrq.jpg'
-        }]
+        [
+            'link', {
+                rel: 'icon',
+                href: ''
+            },
+            'meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }
+        ]
     ],
+    plugins: [
+        ["vuepress-plugin-boxx"]
+    ],
+    theme: 'reco',
     themeConfig: {
+        subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+        //导航栏
         nav: [{
-                text: '首页',
-                link: '/'
-            },
-            //   {text:'前端导航',link:'http://www.wicode.cn/'},
-            //   {text:'每日分享',link:'http://www.wicode.cn/'},
-            //   {text:'关于',link:'/about'},
-            {
-                text: '分享',
-                items: [{
-                        text: '技术',
-                        link: '/jishu/'
-                    },
-                    {
-                        text: '工具',
-                        link: '/fx/'
-                    }
-                ]
-            },
-            //下拉列表显示分组
-            {
-                text: '学习',
-                items: [{
-                        text: '前端',
-                        items: [{
-                                text: 'HTML',
-                                link: '/html/'
-                            },
-                            {
-                                text: 'CSS',
-                                link: '/css/'
-                            },
-                            {
-                                text: 'JS',
-                                link: '/js/'
-                            }
-
-
-                        ]
-                    },
-                    {
-                        text: '后端',
-                        items: [{
-                                text: 'nodejs',
-                                link: '/nodejs/'
-                            },
-                         //{text:'java',link:'/java/'}
-                        ]
-                    },
-                ]
+            text: '首页',
+            link: '/'
+        },
+        {
+            text: '分享',
+            items: [{
+                text: '技术',
+                link: '/jishu/'
             },
             {
-                text: '爱代码工具箱',
-                link: 'http://www.wicode.cn/'
-            },
-            {
-                text: 'GitHub',
-                link: 'https://github.com/lrqnew'
+                text: '工具',
+                link: '/fx/'
             }
+            ]
+        },
+        //下拉列表显示分组
+        {
+            text: '学习',
+            items: [{
+                text: '前端',
+                items: [{
+                    text: 'HTML',
+                    link: '/html/'
+                },
+                {
+                    text: 'CSS',
+                    link: '/css/'
+                },
+                {
+                    text: 'JS',
+                    link: '/js/'
+                }
+
+
+                ]
+            },
+            {
+                text: '后端',
+                items: [{
+                    text: 'nodejs',
+                    link: '/nodejs/'
+                },
+                ]
+            },
+            ]
+        },
+        {
+            text: '时间轴',
+            link: '/timeline/',
+            icon: 'reco-date'
+        },
+        {
+            text: 'GitHub',
+            link: 'https://github.com/lrqnew'
+        }
         ],
         sidebarDepth: 2,
-        lastUpdated: 'Last Updated',
+        lastUpdated: '最后更新时间',
         sidebar: {
             '/fx/': [
                 '',
@@ -82,31 +88,24 @@ module.exports = {
                 'questions',
                 'english'
             ],
-            '/jishu/':[
+            '/jishu/': [
                 '',
                 'jwt'
-            
+
             ]
-            //   '/css/':[
-            //       '',
-            //       'css1',
-            //       'css2'
-            //   ],
-            //   '/nodejs/':[
-            //       '',
-            //       'nodejs1',
-            //       'nodejs2'
-            //   ],
-            //   '/java/':[
-            //       '/java/',//java文件夹的readme.md 不是下拉框形式
-            //       {
-            //           title:'java标题',
-            //           children:[
-            //               '/java/java1',//以docs为根目录来查找文件
-            //               '/java/java2'
-            //           ]
-            //       }
-            //   ]
-        }
+        },
+        type: 'blog',
+        // // 博客设置
+        blogConfig: {
+            category: {
+                location: 2, // 在导航栏菜单中所占的位置，默认2
+                text: '分类' // 默认 “分类”
+            },
+            tag: {
+                location: 3, // 在导航栏菜单中所占的位置，默认3
+                text: '标签' // 默认 “标签”
+            }
+        },
+        startYear: '2019'
     }
 }
