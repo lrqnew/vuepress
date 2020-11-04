@@ -11,7 +11,18 @@ module.exports = {
         ]
     ],
     plugins: [
-        ["vuepress-plugin-boxx"]
+        [
+            "vuepress-plugin-boxx",
+            'vuepress-plugin-sponsor',
+            {
+                theme: 'simple',
+                alipay: '/sponsor-qrcode/qrcode-alipay.png',
+                wechat: '/sponsor-qrcode/qrcode-wechat.png',
+                qq: '/sponsor-qrcode/qrcode-qq.png',
+                paypal: 'https://www.paypal.me/yokefellow',
+                duration: 2000
+            }
+        ]
     ],
     theme: 'reco',
     themeConfig: {
@@ -21,7 +32,7 @@ module.exports = {
             text: '首页',
             link: '/'
         },
-       
+
         //下拉列表显示分组
         // {
         //     text: '学习',
