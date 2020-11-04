@@ -34,36 +34,34 @@ module.exports = {
             ]
         },
         //下拉列表显示分组
-        {
-            text: '学习',
-            items: [{
-                text: '前端',
-                items: [{
-                    text: 'HTML',
-                    link: '/html/'
-                },
-                {
-                    text: 'CSS',
-                    link: '/css/'
-                },
-                {
-                    text: 'JS',
-                    link: '/js/'
-                }
-
-
-                ]
-            },
-            {
-                text: '后端',
-                items: [{
-                    text: 'nodejs',
-                    link: '/nodejs/'
-                },
-                ]
-            },
-            ]
-        },
+        // {
+        //     text: '学习',
+        //     items: [{
+        //         text: '前端',
+        //         items: [{
+        //             text: 'web',
+        //             link: '/web/'
+        //         },
+        //         {
+        //             text: 'CSS',
+        //             link: '/css/'
+        //         },
+        //         {
+        //             text: 'JS',
+        //             link: '/js/'
+        //         }
+        //     ]
+        //     },
+        //     {
+        //         text: '后端',
+        //         items: [{
+        //             text: 'nodejs',
+        //             link: '/nodejs/'
+        //         },
+        //         ]
+        //     },
+        //     ]
+        // },
         {
             text: '时间轴',
             link: '/timeline/',
@@ -92,6 +90,10 @@ module.exports = {
                 '',
                 'jwt'
 
+            ],
+            '/web/': [
+                '',
+                'textBased'
             ]
         },
         type: 'blog',
