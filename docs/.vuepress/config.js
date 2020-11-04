@@ -21,18 +21,7 @@ module.exports = {
             text: '首页',
             link: '/'
         },
-        {
-            text: '分享',
-            items: [{
-                text: '技术',
-                link: '/jishu/'
-            },
-            {
-                text: '工具',
-                link: '/fx/'
-            }
-            ]
-        },
+       
         //下拉列表显示分组
         // {
         //     text: '学习',
@@ -75,11 +64,6 @@ module.exports = {
         sidebarDepth: 2,
         lastUpdated: '最后更新时间',
         sidebar: {
-            '/fx/': [
-                '',
-                'fx1',
-                'fx2'
-            ],
             '/js/': [
                 '',
                 'jscore',

@@ -2,7 +2,7 @@
 home: true
 # heroImage: /lrq.jpg
 heroText: 李瑞清的官方网站
-tagline: 关注前端
+tagline: 知识就是力量
 # actionText: 快速上手 →
 actionLink: /nav/
 features:
