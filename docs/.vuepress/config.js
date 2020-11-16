@@ -21,18 +21,49 @@ module.exports = {
                 qq: '/sponsor-qrcode/qrcode-qq.png',
                 paypal: 'https://www.paypal.me/yokefellow',
                 duration: 2000
-            }
-        ]
+            },
+            '@vuepress-reco/vuepress-plugin-bulletin-popover', {
+                width: '300px', // 默认 260px
+                title: '消息提示',
+                body: [
+                  {
+                    type: 'title',
+                    content: '欢迎加入QQ交流群 🎉🎉🎉',
+                    style: 'text-aligin: center;'
+                  },
+                  {
+                    type: 'image',
+                    src: '/rvcode_qq.png'
+                  }
+                ],
+                footer: [
+                  {
+                    type: 'button',
+                    text: '打赏',
+                    link: '/donate'
+                  },
+                  {
+                    type: 'button',
+                    text: '打赏',
+                    link: '/donate'
+                  }
+                ]
+              }
+         ]
     ],
     theme: 'reco',
     themeConfig: {
         subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+        valineConfig: {
+            appId: 'eIcNrJFttbPXObD23yQHVRa9-gzGzoHsz',// your appId
+            appKey: 'qWx1PB2naAAQ048hxxvMTNzP', // your appKey
+          },
         //导航栏
         nav: [{
             text: '首页',
             link: '/'
         },
-
+        
         //下拉列表显示分组
         // {
         //     text: '学习',
