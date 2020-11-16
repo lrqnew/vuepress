@@ -19,7 +19,7 @@ HTML的主要工作是编辑文本结构和文本内容（也称为语义semanti
 :::
 ## 基础: 标题和段落
 大部分的文本结构由标题和段落组成。 不管是小说、报刊、教科书还是杂志等。
-![peoples.jpg](https://i.loli.net/2020/11/04/OzB29Ufg37HSuJr.jpg)
+![imgbed.cn图床](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-imgbed/9cd8e375-9289-4d39-b699-97ba7c65bb13.jpg)
 
 内容结构化会使读者的阅读体验更轻松，更愉快。
 在HTML中，每个段落是通过 **`<p>`** 元素标签进行定义的, 比如下面这样：
@@ -99,7 +99,7 @@ HTML的主要工作是编辑文本结构和文本内容（也称为语义semanti
 ```
 然而，当您在浏览器中打开文档时，您会看到文本显示为一整块！
 
-![63E7A884-6CDA-4c58-ACAE-E6D2F253659C.png](https://i.loli.net/2020/11/04/SBvlWCy5rKhodHm.png)
+![imgbed.cn图床](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-imgbed/a9c86bb4-4044-4160-bf21-cc3d4e1ce5c6.png)
 
 这是因为没有元素给内容结构，所以浏览器不知道什么是标题，什么是段落。此外：
 
