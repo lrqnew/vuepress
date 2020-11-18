@@ -1,3 +1,13 @@
+---
+title: JSON Web Token 入门教程
+date: 2020-11-4
+categories:
+ - 技术
+tags:
+- JSON Web Token
+---
+<Boxx/>
+
 # JSON Web Token 入门教程
 JSON Web Token（缩写 JWT）是目前最流行的跨域认证解决方案，本文介绍它的原理和用法。  
 <img :src="$withBase('../jwt.jpg')" alt="dock"> 

@@ -114,8 +114,8 @@ module.exports = {
             ],
             '/jishu/': [
                 '',
-                'jwt'
-
+                'jwt',
+                'code'
             ],
             '/web/': [
                 '',
