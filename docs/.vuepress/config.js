@@ -119,7 +119,8 @@ module.exports = {
             ],
             '/web/': [
                 '',
-                'textBased'
+                'textBased',
+                'createLink'
             ]
         },
         type: 'blog',
