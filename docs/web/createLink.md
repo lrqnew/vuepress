@@ -27,3 +27,13 @@ URL可以指向HTML文件、文本文件、图像、文本文档、视频和音�
 
 ## 链接的解析
 通过将文本（或其他内容，见块级链接)转换为<`a`>元素内的链接来创建基本链接， 给它一个href属性（也称为目标），它将包含您希望链接指向的网址。
+
+``` html
+<p>我创建了一个指向
+<a href="https://www.mozilla.org/zh-CN/">Mozilla 主页</a>
+的超链接。
+</p>
+```
+结果如下所示：
+
+我创建了一个指向 <a href="https://www.mozilla.org/zh-CN/">Mozilla 主页</a> 的超链接。
