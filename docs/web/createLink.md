@@ -201,3 +201,20 @@ URL使用路径查找文件。路径指定文件系统中您感兴趣的文件�
 <a href="mailto:nowhere@mozilla.org">向 nowhere 发邮件</a>
 ```
 这会创建一个链接，看起来像这样： <a href="mailto:nowhere@mozilla.org">向 nowhere 发邮件</a> 发邮件。
+实际上，邮件地址甚至是可选的。如果你忘记了（也就是说，你的`href`仅仅只是简单的"`mailto:`"），一个新的发送电子邮件的窗口也会被用户的邮件客户端打开，只是没有收件人的地址信息，这通常在“分享”链接是很有用的，用户可以发送给他们选择的地址邮件
+
+## 具体细节
+除了电子邮件地址，您还可以提供其他信息。事实上，任何标准的邮件头字段可以被添加到你提供的邮件URL。 其中最常用的是主题(subject)、抄送(cc)和主体(body) (这不是一个真正的头字段，但允许您为新邮件指定一个短内容消息)。 每个字段及其值被指定为查询项。
+下面是一个包含cc、bcc、主题和主体的示例：
+```html
+<a href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
+  Send mail with cc, bcc, subject and body
+</a>
+```
+
+:::  warning 注意
+ 每个字段的值必须是URL编码的。 也就是说，不能有非打印字符（不可见字符比如制表符、换行符、分页符）和空格 percent-escaped. 同时注意使用问号（`?`）来分隔主URL与参数值，以及使用`&`符来分隔`mailto:`中的各个参数。 这是标准的URL查询标记方法。
+::: 
+## 小结
+这就是链接！当您开始查看样式时，您将在稍后的课程中返回链接。接下来是HTML，我们将返回文本语义，并查看一些更高级/不寻常的功能，您会发现有用的-高级文本格式是您的下一站。
+

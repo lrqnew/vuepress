@@ -12,6 +12,7 @@ module.exports = {
     ],
     plugins: [
         [
+           
             "vuepress-plugin-boxx",
             'vuepress-plugin-sponsor',
             {
@@ -21,7 +22,9 @@ module.exports = {
                 qq: '/sponsor-qrcode/qrcode-qq.png',
                 paypal: 'https://www.paypal.me/yokefellow',
                 duration: 2000
-            },
+            }
+        ],
+        [
             '@vuepress-reco/vuepress-plugin-bulletin-popover', {
                 width: '300px', // 默认 260px
                 title: '消息提示',
@@ -33,23 +36,23 @@ module.exports = {
                   },
                   {
                     type: 'image',
-                    src: '/rvcode_qq.png'
+               
                   }
                 ],
                 footer: [
                   {
                     type: 'button',
                     text: '打赏',
-                    link: '/donate'
+                  
                   },
                   {
                     type: 'button',
                     text: '打赏',
-                    link: '/donate'
+                
                   }
                 ]
               }
-         ]
+        ]
     ],
     theme: 'reco',
     themeConfig: {
@@ -93,11 +96,11 @@ module.exports = {
         //     },
         //     ]
         // },
-        {
-            text: '时间轴',
-            link: '/timeline/',
-            icon: 'reco-date'
-        },
+        // {
+        //     text: '时间轴',
+        //     link: '/timeline/',
+        //     icon: 'reco-date'
+        // },
         {
             text: 'GitHub',
             link: 'https://github.com/lrqnew'
