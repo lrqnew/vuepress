@@ -1,4 +1,4 @@
 ---
 showSponsor: true
-comment: false
+isShowComments: false
 ---

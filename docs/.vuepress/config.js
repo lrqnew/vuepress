@@ -42,22 +42,32 @@ module.exports = {
             'vuepress-plugin-sponsor',
             {
                 theme: 'simple',
-                alipay: '/sponsor-qrcode/qrcode-alipay.png',
-                wechat: '/sponsor-qrcode/qrcode-wechat.png',
-                qq: '/sponsor-qrcode/qrcode-qq.png',
-                paypal: 'https://www.paypal.me/yokefellow',
+                alipay: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-b1ebbd3c-ca49-405b-957b-effe60782276/686a8516-8e4c-4cc0-b4e0-a69841228543.JPG',
+                wechat: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-b1ebbd3c-ca49-405b-957b-effe60782276/0d50c5a8-f7a5-4136-8a7f-631653024b97.JPG',
+                qq: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-b1ebbd3c-ca49-405b-957b-effe60782276/001bfe79-3c62-4774-9416-041cd5964406.JPG',
                 duration: 2000
             },
-        ]
+        ],
+        [
+            '@vuepress-reco/comments',
+            {
+              solution: 'valine',
+              options: {
+                appId: 'eIcNrJFttbPXObD23yQHVRa9-gzGzoHsz',
+                appKey: 'qWx1PB2naAAQ048hxxvMTNzP',
+              }
+            }
+          ]
      
     ],
     theme: 'reco',
     themeConfig: {
+        // valineConfig: {
+        //     appId: 'eIcNrJFttbPXObD23yQHVRa9-gzGzoHsz',// your appId
+        //     appKey: 'qWx1PB2naAAQ048hxxvMTNzP', // your appKey
+        //     path: '<%- frontmatter.commentid || frontmatter.permalink %>'
+        //   },
         subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
-        valineConfig: {
-            appId: 'eIcNrJFttbPXObD23yQHVRa9-gzGzoHsz',// your appId
-            appKey: 'qWx1PB2naAAQ048hxxvMTNzP', // your appKey
-          },
         //导航栏
         nav: [{
             text: '首页',
@@ -88,9 +98,7 @@ module.exports = {
                 'textBased',
                 'createLink'
             ],
-            '/donate':[
-                ''
-            ]
+           
         },
         type: 'blog',
         // 博客设置
