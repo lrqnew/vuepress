@@ -12,21 +12,10 @@ module.exports = {
     ],
     plugins: [
         [
-           
             "vuepress-plugin-boxx",
-            'vuepress-plugin-sponsor',
-            {
-                theme: 'simple',
-                alipay: '/sponsor-qrcode/qrcode-alipay.png',
-                wechat: '/sponsor-qrcode/qrcode-wechat.png',
-                qq: '/sponsor-qrcode/qrcode-qq.png',
-                paypal: 'https://www.paypal.me/yokefellow',
-                duration: 2000
-            }
         ],
         [
-            '@vuepress-reco/vuepress-plugin-bulletin-popover', {
-                width: '300px', // 默认 260px
+             '@vuepress-reco/vuepress-plugin-bulletin-popover', {
                 title: '消息提示',
                 body: [
                   {
@@ -35,24 +24,32 @@ module.exports = {
                     style: 'text-aligin: center;'
                   },
                   {
-                    type: 'image',
-               
+                    type: 'text',
+                    content:'QQ群：527677005',
+                    style: 'text-aligin: center;color:#3eaf7c;font-size:24px'
                   }
                 ],
                 footer: [
                   {
                     type: 'button',
                     text: '打赏',
-                  
+                    link: '/donate'
                   },
-                  {
-                    type: 'button',
-                    text: '打赏',
-                
-                  }
                 ]
               }
+        ],
+        [
+            'vuepress-plugin-sponsor',
+            {
+                theme: 'simple',
+                alipay: '/sponsor-qrcode/qrcode-alipay.png',
+                wechat: '/sponsor-qrcode/qrcode-wechat.png',
+                qq: '/sponsor-qrcode/qrcode-qq.png',
+                paypal: 'https://www.paypal.me/yokefellow',
+                duration: 2000
+            },
         ]
+     
     ],
     theme: 'reco',
     themeConfig: {
@@ -66,41 +63,7 @@ module.exports = {
             text: '首页',
             link: '/'
         },
-        
-        //下拉列表显示分组
-        // {
-        //     text: '学习',
-        //     items: [{
-        //         text: '前端',
-        //         items: [{
-        //             text: 'web',
-        //             link: '/web/'
-        //         },
-        //         {
-        //             text: 'CSS',
-        //             link: '/css/'
-        //         },
-        //         {
-        //             text: 'JS',
-        //             link: '/js/'
-        //         }
-        //     ]
-        //     },
-        //     {
-        //         text: '后端',
-        //         items: [{
-        //             text: 'nodejs',
-        //             link: '/nodejs/'
-        //         },
-        //         ]
-        //     },
-        //     ]
-        // },
-        // {
-        //     text: '时间轴',
-        //     link: '/timeline/',
-        //     icon: 'reco-date'
-        // },
+       
         {
             text: 'GitHub',
             link: 'https://github.com/lrqnew'
@@ -124,10 +87,13 @@ module.exports = {
                 '',
                 'textBased',
                 'createLink'
+            ],
+            '/donate':[
+                ''
             ]
         },
         type: 'blog',
-        // // 博客设置
+        // 博客设置
         blogConfig: {
             category: {
                 location: 2, // 在导航栏菜单中所占的位置，默认2
