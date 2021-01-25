@@ -1,3 +1,4 @@
 ---
 showSponsor: true
+comment: false
 ---
